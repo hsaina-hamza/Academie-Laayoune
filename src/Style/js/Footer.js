@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom"
 
 const Footer = () => {
   return (
@@ -58,15 +59,15 @@ const Footer = () => {
                 </div>
                 <div className="footer-social-icon">
                   <span>Follow us</span>
-                  <a href="#">
+                  <Link to="#">
                     <i className="fab fa-facebook-f facebook-bg"></i>
-                  </a>
-                  <a href="#">
+                    </Link>
+                  <Link to="#">
                     <i className="fab fa-twitter twitter-bg"></i>
-                  </a>
-                  <a href="#">
+                  </Link>
+                  <Link to="#">
                     <i className="fab fa-google-plus-g google-bg"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -78,16 +79,16 @@ const Footer = () => {
                   <h3>Useful Links</h3>
                 </div>
                 <ul>
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Portfolio</a></li>
-                  <li><a href="#">Contact</a></li>
-                  <li><a href="#">About us</a></li>
-                  <li><a href="#">Our Services</a></li>
-                  <li><a href="#">Expert Team</a></li>
-                  <li><a href="#">Contact us</a></li>
-                  <li><a href="#">Latest News</a></li>
+                  <li><Link to="#">Home</Link></li>
+                  <li><Link to="#">About</Link></li>
+                  <li><Link href="#">Services</Link></li>
+                  <li><Link to="#">Portfolio</Link></li>
+                  <li><Link to="#">Contact</Link></li>
+                  <li><Link to="#">About us</Link></li>
+                  <li><Link to="#">Our Services</Link></li>
+                  <li><Link to="#">Expert Team</Link></li>
+                  <li><Link to="#">Contact us</Link></li>
+                  <li><Link to="#">Latest News</Link></li>
                 </ul>
               </div>
             </div>
@@ -135,11 +136,11 @@ const Footer = () => {
               <div className="col-xl-6 col-lg-6 d-none d-lg-block text-right">
                 <div className="footer-menu">
                   <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Terms</a></li>
-                    <li><a href="#">Privacy</a></li>
-                    <li><a href="#">Policy</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><Link to="#">Home</Link></li>
+                    <li><Link to="#">Terms</Link></li>
+                    <li><Link to="#">Privacy</Link></li>
+                    <li><Link to="#">Policy</Link></li>
+                    <li><Link to="#">Contact</Link></li>
                   </ul>
                 </div>
               </div>
