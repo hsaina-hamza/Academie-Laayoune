@@ -1,14 +1,16 @@
 import './App.css';
-// import Login from './Style/js/login';
-import ContactForm from "./Style/js/ContactForm";
+import Login from './Style/js/login';
+// import TabLayout from "./Style/js/Proje";
 
 function App() {
   return (
     <div className="App">
-      {/* <Login /> */}
+      <Login />
+      {/* <TabLayout /> */}
       {/* <Contact /> */}
-      <ContactForm />
+      {/* <ContactForm /> */}
     </div>
+    
   );
 }
 
