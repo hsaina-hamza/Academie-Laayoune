@@ -1,0 +1,31 @@
+/* App.css */
+.port {
+	display: none; /* Items are hidden by default */
+  }
+  
+  .port.item_open {
+	display: block; /* Show the item when it's open */
+  }
+  
+  .gallery ul {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+  }
+  
+  .gallery li {
+	margin: 10px;
+	flex: 1 0 21%;
+  }
+  
+  .description h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+  }
+  
+  .description p {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+  }
+  
