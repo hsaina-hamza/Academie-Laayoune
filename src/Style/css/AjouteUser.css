@@ -1,0 +1,46 @@
+.container {
+    float: right;
+    margin-top: 10vh;
+  }
+  
+  .form-container {
+    width: 500px;
+    border: 1px solid #ccc; 
+    border-radius: 8px;
+    padding: 5vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-control {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-control::placeholder {
+    color: #aaa;
+  }
+  
+  .btn-success {
+    width: 100%; 
+  }
+  select {
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 16px; 
+    outline: none; 
+    margin-bottom: 1.5rem; 
+  }
+  
+  select:focus {
+    border-color: #0999f3;
+    box-shadow: 0 0 5px rgba(8, 86, 243, 0.5);
+}
+  
+  option {
+    background-color: #fff; 
+    color: #333; 
+  }
+    
